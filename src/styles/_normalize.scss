@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap');
+@import './mixins';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html { font-size: 10px; }
+h1 { @include heading-large; }
+h2 { @include heading-medium; }
+h3 { @include heading-small; }
+h4 { @include heading-extra-small; }
+body { @include body-default; }

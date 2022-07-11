@@ -1,0 +1,22 @@
+.current__turn {
+  width: 140px;
+  height: 52px;
+  background-color: $semi-dark-navy;
+  box-shadow: inset 0px -4px 0 $semi-dark-navy-shadow;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+
+  span {
+    @include heading-extra-small;
+    color: $silver;
+  }
+
+  .player__icon {
+    scale: .315;
+    path {
+      fill: $silver;
+    }
+  }
+}

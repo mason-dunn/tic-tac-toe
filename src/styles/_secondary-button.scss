@@ -1,0 +1,29 @@
+.secondary__button {
+  // CONFIGURATION
+  $inset-depth: -4px;
+  // PROPERTIES
+  @include heading-extra-small;
+  color: $dark-navy;
+  width: 226px;
+  height: 52px;
+  padding-bottom: abs($inset-depth);
+  border: none;
+  border-radius: 10px;
+  &:hover { cursor: pointer; }
+
+  &#yellow {
+    background-color: $light-yellow;
+    box-shadow: inset 0 $inset-depth 0 $light-yellow-shadow;
+    &:hover {
+      background-color: $light-yellow-hover;
+    }
+  }
+
+  &#silver {
+    background-color: $silver;
+    box-shadow: inset 0 $inset-depth 0 $silver-shadow;
+    &:hover {
+      background-color: $silver-hover;
+    }
+  }
+}

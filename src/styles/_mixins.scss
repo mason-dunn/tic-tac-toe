@@ -1,0 +1,38 @@
+@mixin heading-large {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.25em;
+  letter-spacing: .0625em;
+  text-transform: uppercase;
+}
+
+@mixin heading-medium {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25em;
+  letter-spacing: .0625em;
+  text-transform: uppercase;
+}
+
+@mixin heading-small {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25em;
+  letter-spacing: .0625em;
+  text-transform: uppercase;
+}
+
+@mixin heading-extra-small {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.25em;
+  letter-spacing: .0625em;
+  text-transform: uppercase;
+}
+
+@mixin body-default {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.25em;
+  letter-spacing: .0625em;
+}

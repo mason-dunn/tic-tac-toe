@@ -1,0 +1,26 @@
+@import './normalize';
+@import './variables';
+@import './mixins';
+
+body {
+  background-color: $dark-navy;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@import './primary-button';
+@import './secondary-button';
+@import './restart-button';
+@import './character-select';
+@import './pick-character';
+@import './mode-select';
+@import './new-game';
+@import './game-board';
+@import './current-turn';
+@import './score-card';
